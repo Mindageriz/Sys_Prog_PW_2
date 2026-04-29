@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find . -maxdepth 1 -not -name \".\" -not -name \"*.obj\" -not -name \"*.exe\" -not -name \"*.ilk\" -not -name \"*.pdb\" -exec rm -rf {} +)"
+    ]
+  }
+}
